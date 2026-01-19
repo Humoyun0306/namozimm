@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Doimiy Namoz – 5 vaqt namozni muntazam o‘qish | namozim.com</title>
+
+  <meta name="description" content="Namozim.com — namoz vaqtlari, doimiy namoz o‘qishga yordam beruvchi platforma. Namoz, sabr va baraka haqida eslatmalar va motivatsiya. Intizom">
+  <meta name="keywords" content="namoz, namoz vaqtlari, doimiy namoz, sabr, baraka, islomiy hayot, ibodat, namoz o‘qish">
+  <meta name="robots" content="index, follow">
+
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: url("https://i.pinimg.com/736x/9e/c4/18/9ec418a3e5f8a28d4e18937264dabf0a.jpg")
+              no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* OVERLAY */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.15),
+    rgba(255,255,255,0.45)
+  );
+}
+
+/* CONTENT */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 1.5rem;
+  max-width: 520px;
+  animation: fadeUp 1.3s ease forwards;
+}
+
+/* TITLE */
+.hero h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 1.2rem;
+}
+
+/* OLTIN / TILLARANG */
+.gold-text {
+  color: #b8860b; /* to‘q tillarang */
+  text-shadow: 0 4px 18px rgba(184,134,11,0.6);
+}
+
+/* TEXT */
+.hero p {
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: #2e2e2e;
+  margin-bottom: 2.2rem;
+  text-shadow: 0 4px 14px rgba(255,255,255,0.7);
+}
+
+/* ENG CHIROYLI YASHIL */
+.green-text {
+  color: #1e8f4d; /* sokin, ishonchli yashil */
+  font-weight: 600;
+  text-shadow: 0 3px 14px rgba(0, 255, 106, 0.4);
+}
+
+/* BUTTON */
+.hero a {
+  display: inline-block;
+  padding: 16px 44px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #f7c873, #ffd88a);
+  color: #111;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 20px 50px rgba(247,200,115,0.7);
+  transition: all 0.35s ease;
+  animation: pulse 3s infinite;
+}
+
+.hero a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 30px 70px rgba(247,200,115,1);
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(45px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 rgba(247,200,115,0.5); }
+  50% { box-shadow: 0 0 45px rgba(247,200,115,1); }
+  100% { box-shadow: 0 0 0 rgba(247,200,115,0.5); }
+}
+
+@media(min-width: 992px) {
+  .hero h1 {
+    font-size: 2.3rem;
+  }
+}
+
+.inline-icon img {
+  width: 22px;
+  height: 22px;
+}
+
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-content">
+
+    <h1 class="gold-text">
+      Namozni muntazam ado etishda qiynalayapsizmi?
+    </h1>
+
+    <p>
+      Biz sizga namozni doimiy va ixlos bilan ado etish odatini
+      shakllantirishda yordam beramiz.
+      
+      <span class="green-text green-text inline-icon">
+        Bugun niyat qiling va ilk qadamni qo‘ying.
+        <img src="images/salah.png" alt="" />
+      </span>
+    </p>
+
+    <a  class="green-text inline-icon" href="namozim.html"> Namozni Boshlash <img src="images/islam (1).png" alt="" /></a>
+
+  </div>
+</section>
+
+</body>
+</html>
